@@ -3,3 +3,4 @@ plugins:
   - name: ts_proto
     out: gen/nodets
     opt: esModuleInterop=true,env=node,outputServices=grpc-js
+    strategy: all

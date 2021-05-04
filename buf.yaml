@@ -2,6 +2,7 @@ version: v1beta1
 name: buf.build/node-grpc-dapr-example/protos
 build:
   roots:
+    - protolib
     - proto
 lint:
   use:
