@@ -1,5 +1,5 @@
 import { Server, ServerCredentials } from "@grpc/grpc-js";
-import { MathServiceService } from '../gen/nodets/services/v1/math_service';
+import { MathServiceService } from 'protogen/services/v1/math_service';
 import { MathServiceServer } from "./services/MathServiceServer";
 
 const server = new Server();
