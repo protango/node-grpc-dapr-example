@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "esModuleInterop": true
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
+}

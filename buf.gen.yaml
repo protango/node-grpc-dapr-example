@@ -1,0 +1,5 @@
+version: v1beta1
+plugins:
+  - name: ts_proto
+    out: gen/nodets
+    opt: esModuleInterop=true,env=node,outputServices=grpc-js

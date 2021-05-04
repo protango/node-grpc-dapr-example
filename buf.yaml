@@ -1,0 +1,12 @@
+version: v1beta1
+name: buf.build/node-grpc-dapr-example/protos
+build:
+  roots:
+    - proto
+lint:
+  use:
+    - DEFAULT
+  except:
+breaking:
+  use:
+    - FILE

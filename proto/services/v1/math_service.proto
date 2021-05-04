@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package services.v1;
+
+message BasicMathRequest {
+    double num1 = 1;
+    double num2 = 2;
+}
+
+message MathResponse {
+    double result = 1;
+}
+
+service MathService {
+    rpc Add(BasicMathRequest) returns (MathResponse) {}
+    rpc Subtract(BasicMathRequest) returns (MathResponse) {}
+    rpc Multiply(BasicMathRequest) returns (MathResponse) {}
+    rpc Divide(BasicMathRequest) returns (MathResponse) {}
+}
