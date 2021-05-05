@@ -2,7 +2,7 @@ import {
     BasicMathRequest,
     MathResponse,
     MathServiceServer as IMathServiceServer,
-} from '../../gen/nodets/services/v1/math_service';
+} from 'protogen/services/v1/math_service';
 
 import { handleUnaryCall, UntypedHandleCall } from '@grpc/grpc-js'
 

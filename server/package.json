@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "node -r ts-node/register .",
-    "start-dapr": "dapr run --app-protocol grpc --app-id test-server --app-port 9085 --config ../dapr.yaml ts-node index.ts",
+    "start-dapr": "dapr run --app-protocol grpc --app-id math-test-server --app-port 9085 --config ../dapr.yaml ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
