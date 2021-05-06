@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "google-protobuf": "^3.15.8",
     "protobufjs": "^6.11.2",
-    "protogen": "file:../gen/nodets"
+    "protogen": "file:../gen/nodejs"
   },
   "devDependencies": {
     "@types/express": "^4.17.11",

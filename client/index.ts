@@ -1,7 +1,7 @@
 import { promisify } from 'util';
 import readLineModule from 'readline';
 import { BasicMathRequest, MathResponse, MathServiceClient } from 'protogen/services/v1/math_service';
-import { ChannelCredentials } from 'protogen/node_modules/@grpc/grpc-js';
+import { ChannelCredentials } from '@grpc/grpc-js';
 import { DaprClient, InvokeServiceRequest } from 'protogen/dapr/proto/runtime/v1/dapr';
 import { InvokeResponse } from 'protogen/dapr/proto/common/v1/common';
 import { Any } from 'protogen/google/protobuf/any';
